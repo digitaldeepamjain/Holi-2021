@@ -7,7 +7,7 @@ var secoundsElem = document.querySelector('#secoundsElem');
 // start change pr secound code
 setInterval(function(){
     var todays = new Date();
-    var future = new Date(2024, 0, 01, 0, 0, 0, 0);
+    var future = new Date(2026, 0, 01, 0, 0, 0, 0);
 
     var diff = future - todays;
     var secounds = Math.floor((diff / 1000));
